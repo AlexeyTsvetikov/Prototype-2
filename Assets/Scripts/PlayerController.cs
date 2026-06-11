@@ -7,15 +7,19 @@ public class PlayerController : MonoBehaviour
     public Vector2 moveInput;
     public float speed = 10.0f;
     public float xRange = 20.0f;
+    public GameObject projectilePrefab;
+    public InputAction fireAction;
 
     private void OnEnable()
     {
         moveAction.Enable();
+        fireAction.Enable();
     }
 
     private void OnDisable()
     {
         moveAction.Disable();
+        fireAction.Disable();
     }
 
     // Update is called once per frame
