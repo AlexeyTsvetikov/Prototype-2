@@ -169,3 +169,16 @@ Packages/packages-lock.json linguist-generated
 
 # Exceptions for .asset files such as lightning pre-baking
 LightingData.asset     binary
+
+# Фильтр языковой панели GitHub
+*.meta linguist-vendored
+*.unity linguist-vendored
+*.prefab linguist-vendored
+*.asset linguist-vendored
+*.mat linguist-vendored
+*.controller linguist-vendored
+*.anim linguist-vendored
+*.inputactions linguist-vendored
+*.unity linguist-generated
+*.prefab linguist-generated
+*.asset linguist-generated
